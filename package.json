@@ -1,0 +1,21 @@
+{
+  "name": "superior-creditcards",
+  "version": "0.0.1",
+  "description": "Credit cards website to play around with NodeJS and MongoDB, it generates a static website to be published into an S3 bucket.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build",
+    "serve": "serve ./public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "ejs": "^2.5.7",
+    "fs-extra": "^4.0.2",
+    "glob": "^7.1.2",
+    "serve": "^6.0.6",
+    "standard": "^10.0.3"
+  }
+}
