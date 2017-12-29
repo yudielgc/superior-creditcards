@@ -12,7 +12,7 @@ const distPath = './public'
 fse.emptyDirSync(distPath)
 
 // copy assets folder
-fse.copy(`${srcPath}/assets`, `${distPath}/assets`)
+fse.copy(`${srcPath}/assets`, `${distPath}`)
 
 // read page templates
 globP('**/*.ejs', { cwd: `${srcPath}/pages` })
