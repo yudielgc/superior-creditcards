@@ -26,6 +26,7 @@ var elem=$('#container ul');
 });
 </script>
 
+
 <div class="header">
     <div class="container">
         <div class="logo">
@@ -476,121 +477,39 @@ var elem=$('#container ul');
                                     <a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
                                 </div>
                                 <div class="sort">
-                                   <div class="sort-by">
-                                        <label>Sort By: </label>
-                                        <select>
-                                                        <option value="">Most recent</option>
-                                                        <option value="">Price: Rs Low to High</option>
-                                                        <option value="">Price: Rs High to Low</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                                <ul class="list">
-                                    <% site.creditcards.forEach((creditcard) => { %>
-                                        <a href="<%= creditcard.url %>.html">
-                                            <li>
-                                            <img src="images/<%= creditcard.image %>" title="" alt="" />
-                                            <section class="list-left">
-                                                <h5 class="title"><%= creditcard.short_description %></h5>
-                                                <span class="adprice">$290</span>
-                                                <p class="catpath">Categories » Other Vehicles</p>
-                                            </section>
-                                            <section class="list-right">
-                                                <span class="date">Today, 17:55</span>
-                                                <span class="cityname">City name</span>
-                                            </section>
-                                            <div class="clearfix"></div>
-                                            </li> 
-                                        </a>
-                                    <% }) %>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
-                     <div>
-                        <div id="container">
-                            <div class="view-controls-list" id="viewcontrols">
-                                <label>view:</label>
-                                <a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
-                                <a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
-                            </div>
-                            <div class="sort">
-                               <div class="sort-by">
-                                    <label>Sort By: </label>
-                                    <select>
-                                        <option value="">Most recent</option>
-                                        <option value="">Price: Rs Low to High</option>
-                                        <option value="">Price: Rs High to Low</option>
-                                    </select>
-                                   </div>
-                                 </div>
-                            <div class="clearfix"></div>
-                        <ul class="list">
-                            <% site.creditcards.forEach((creditcard) => { %>
-                                <a href="<%= creditcard.url %>.html">
-                                    <li>
-                                    <img src="images/<%= creditcard.image %>" title="" alt="" />
-                                    <section class="list-left">
-                                    <h5 class="title"><%= creditcard.short_description %></h5>
-                                    <span class="adprice">$290</span>
-                                    <p class="catpath">Cars » Other Vehicles</p>
-                                    </section>
-                                    <section class="list-right">
-                                    <span class="date">Today, 17:55</span>
-                                    <span class="cityname">City name</span>
-                                    </section>
-                                    <div class="clearfix"></div>
-                                    </li> 
-                                </a>
-                            <% }) %>
-                        </ul>
-                    </div>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="samsa" aria-labelledby="samsa-tab">
-                      <div>
-                            <div id="container">
-                                <div class="view-controls-list" id="viewcontrols">
-                                    <label>view:</label>
-                                    <a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
-                                    <a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
-                                </div>
-                                <div class="sort">
-                                   <div class="sort-by">
+                                    <div class="sort-by">
                                         <label>Sort By: </label>
                                         <select>
                                             <option value="">Most recent</option>
                                             <option value="">Price: Rs Low to High</option>
                                             <option value="">Price: Rs High to Low</option>
                                         </select>
-                                    </div>
+                                   </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <ul class="list">
                                     <% site.creditcards.forEach((creditcard) => { %>
                                         <a href="<%= creditcard.url %>.html">
                                             <li>
-                                            <img src="images/<%= creditcard.image %>" title="" alt="" />
-                                            <section class="list-left">
-                                            <h5 class="title"><%= creditcard.short_description %></h5>
-                                            <span class="adprice">$290</span>
-                                            <p class="catpath">Cars » Other Vehicles</p>
-                                            </section>
-                                            <section class="list-right">
-                                            <span class="date">Today, 17:55</span>
-                                            <span class="cityname">City name</span>
-                                            </section>
-                                            <div class="clearfix"></div>
+                                                <img src="images/<%= creditcard.image %>" title="" alt="" />
+                                                <section class="list-left">
+                                                    <h5 class="title"><%= creditcard.short_description %></h5>
+                                                    <span class="adprice">$290</span>
+                                                    <p class="catpath">Cars » Other Vehicles</p>
+                                                </section>
+                                                <section class="list-right">
+                                                    <span class="date">Today, 17:55</span>
+                                                    <span class="cityname">City name</span>
+                                                </section>
+                                                <div class="clearfix"></div>
                                             </li> 
                                         </a>
-                                    <% }) %>
+                                        <% }) %>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!--<ul class="pagination pagination-sm">
+                    <ul class="pagination pagination-sm">
                         <li><a href="#">Prev</a></li>
                         <li><a href="#">1</a></li>
                         <li><a href="#">2</a></li>
@@ -601,7 +520,7 @@ var elem=$('#container ul');
                         <li><a href="#">7</a></li>
                         <li><a href="#">8</a></li>
                         <li><a href="#">Next</a></li>
-                    </ul>-->
+                    </ul>
                   </div>
                 </div>
             </div>
