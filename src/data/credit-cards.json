@@ -1,0 +1,71 @@
+[
+    {
+        "_id": {
+            "$oid": "5a47d40f734d1d7cf82ddfe9"
+        },
+        "name": "BankAmericard® Credit Card",
+        "short_description": "Save on interest to help pay down your balance faster",
+        "long_description": "Stop paying those high interest rates on other credit cards and save. It's that simple.",
+        "rating": 4.2,
+        "rating_count": 11071,
+        "details": [
+            {
+                "title": "No annual fee",
+                "description": "Enjoy no annual fee with the perfect card if you want to save on interest and pay down balances faster",
+                "promo": true
+            },
+            {
+                "title": "Low Introductory APR Offer",
+                "description": "Introductory 0% APR for your first 15 billing cycles for purchases and for any balance transfers made within 60 days of opening your account. After that, a Variable APR that's currently 12.99% to 22.99% will apply.",
+                "promo": true
+            },
+            {
+                "title": "Save on interest",
+                "description": "Transfer high rate balances and save on interest with an Introductory $0 balance transfer fee for the first 60 days your account is open. After that, the fee for future balance transfers is 3% (min. $10).",
+                "promo": false
+            },
+            {
+                "title": "No penalty APR",
+                "description": "No penalty APR. Paying late won't automatically raise your interest rate (APR). Other account pricing and terms apply.",
+                "promo": false
+            },
+            {
+                "title": "FICO® Score",
+                "description": "Now, you can access your FICO® Score updated monthly for free, within your Mobile Banking app or in Online Banking. Opt-in to receive your score, the key factors affecting your score, and other information that can help you keep your credit healthy.",
+                "promo": false
+            },
+            {
+                "title": "Learn more about credit",
+                "description": "Access to credit education on topics like using credit cards responsibly, budgeting and more",
+                "promo": false
+            }
+        ],
+        "rates_fees": [
+            {
+                "title": "Introductory APR",
+                "description": "0% for 15 billing cycles. Applies to purchases and to any balance transfers made within 60 days of opening your account."
+            },
+            {
+                "title": "Standard APR",
+                "description": "12.99% - 22.99%. Variable."
+            },
+            {
+                "title": "Annual Fee",
+                "description": "$0"
+            },
+            {
+                "title": "Balance Transfer Fee",
+                "description": "$0 Intro Balance Transfer fee. Applies to balance transfers made within 60 days of opening your account. After that, the fee for future balance transfers is 3% (min. $10)."
+            }
+        ],
+        "categories": [
+            "low-interest",
+            "no-anual-fee"
+        ],
+        "brand": [
+            "mastercard"
+        ],
+        "image": "8cae_nrwcm_mc_250x158.png",
+        "url": "https://secure.bankofamerica.com/applynow/initialize-workflow.go?requesttype=c&campaignid=4020261&productoffercode=KH&locale=en_US&referral=superiorcreditcards.com"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "_id": {
+            "$oid": "5a47c814734d1d7cf82ddbe3"
+        },
+        "name": "Low Interest",
+        "alias": "low-interest"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c85b734d1d7cf82ddbed"
+        },
+        "name": "Balance Transfer",
+        "alias": "balance-transfer"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c8cb734d1d7cf82ddc07"
+        },
+        "name": "Student",
+        "alias": "student"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c8f5734d1d7cf82ddc11"
+        },
+        "name": "No Foreign Fee",
+        "alias": "no-foreign-fee"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c90f734d1d7cf82ddc13"
+        },
+        "name": "No Annual Fee",
+        "alias": "no-annual-fee"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c91d734d1d7cf82ddc17"
+        },
+        "name": "Airline",
+        "alias": "airline"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c92e734d1d7cf82ddc18"
+        },
+        "name": "Rewards",
+        "alias": "rewards"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c952734d1d7cf82ddc1f"
+        },
+        "name": "Business",
+        "alias": "business"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c95e734d1d7cf82ddc2b"
+        },
+        "name": "Gas",
+        "alias": "gas"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c969734d1d7cf82ddc31"
+        },
+        "name": "Cash Back",
+        "alias": "cash-back"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c974734d1d7cf82ddc38"
+        },
+        "name": "Top Companies",
+        "alias": "top-companies"
+    },
+    {
+        "_id": {
+            "$oid": "5a47c980734d1d7cf82ddc3f"
+        },
+        "name": "Card Types",
+        "alias": "card-types"
+    }
+]
