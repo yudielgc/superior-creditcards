@@ -6,6 +6,7 @@
         "name": "BankAmericard® Credit Card",
         "short_description": "Save on interest to help pay down your balance faster",
         "long_description": "Stop paying those high interest rates on other credit cards and save. It's that simple.",
+        "featured": true,
         "rating": 4.2,
         "rating_count": 11071,
         "details": [

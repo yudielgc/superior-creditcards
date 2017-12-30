@@ -138,129 +138,28 @@
             </div>   
     </div>
 
+    <!--<ul>
+      <% site.categories.forEach((category) => { %>
+        <li><a href="<%= category.url %>"><%= category.name %></a></li>
+      <% }) %>
+    </ul>-->
+
     <div class="categories">
         <div class="container">
             <h2>Categories</h2>
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-credit-card"></i></div>
-                            <h4 class="clrchg">Low Interest</h4>
+            
+            <% site.categories.forEach((category) => { %>
+                <div class="col-md-2 focus-grid">
+                    <a href="<%= category.alias %>.html">
+                        <div class="focus-border">
+                            <div class="focus-layout">
+                                <div class="focus-image"><i class="fa fa-credit-card fa-<%= category.alias %>"></i></div>
+                                <h4 class="clrchg"><%= category.name %></h4>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab2">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-laptop"></i></div>
-                            <h4 class="clrchg">Balance Transfer</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab3">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-car"></i></div>
-                            <h4 class="clrchg">Student</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>  
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab4">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-motorcycle"></i></div>
-                            <h4 class="clrchg">No Foreign Fee</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>  
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab5">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-wheelchair"></i></div>
-                            <h4 class="clrchg">No Annual Fee</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab6">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-paw"></i></div>
-                            <h4 class="clrchg">Airline</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>  
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab7">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-book"></i></div>
-                            <h4 class="clrchg">Rewards</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>  
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab8">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-asterisk"></i></div>
-                            <h4 class="clrchg">Business</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>  
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab9">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-gamepad"></i></div>
-                            <h4 class="clrchg">Gas</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>  
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab10">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-shield"></i></div>
-                            <h4 class="clrchg">Cash Back</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab11">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-at"></i></div>
-                            <h4 class="clrchg">Top Companies</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2 focus-grid">
-                <a href="cat1.html#parentVerticalTab12">
-                    <div class="focus-border">
-                        <div class="focus-layout">
-                            <div class="focus-image"><i class="fa fa-home"></i></div>
-                            <h4 class="clrchg">Card Types</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
+            <% }) %>
             <div class="clearfix"></div>
         </div>
     </div>

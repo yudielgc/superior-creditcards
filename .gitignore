@@ -1,3 +1,5 @@
 /public
 /node_modules
+/tmp
+
 s3p.config.js
