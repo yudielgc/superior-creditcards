@@ -14,7 +14,7 @@ Go to [live demo](http://superiorcreditcards.com/)
 
 ## Deploy to AWS s3 bucket
 
-- `$ s3-publish sync`
+- `$ s3p sync`
 
 Read about `s3-publish` [here](https://www.npmjs.com/package/s3-publish)
 
